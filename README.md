@@ -1,7 +1,7 @@
 Example query
 ```graphql
 {
- 	getPokemon(id: 100) {
+    getPokemon(id: 100) {
     name
     height
     weight
@@ -14,8 +14,8 @@ Example query
   }
 }
 ```
-Outputs:
-```graphql
+Output
+```json
 {
   "data": {
     "getPokemon": {
