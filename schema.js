@@ -59,7 +59,7 @@ const Schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: "Query",
     fields: () => ({
-      getPokemon: {
+      Pokemon: {
         type: PokemonType,
         args: {
           id: { type: GraphQLInt }
